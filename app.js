@@ -22,8 +22,8 @@ let thirdNumber = Math.floor(userNumber % 10);
 if (firstNumber === secondNumber && secondNumber === thirdNumber) {
     console.log("You have the same numbers");
 } else if (firstNumber === secondNumber || secondNumber === thirdNumber || firstNumber === thirdNumber) {
-    console.log("Some numbers in the number are the same")
+    console.log("Some numbers in the number are the same");
 } else {
-    console.log("Your number is correct")
+    console.log("Your number is correct");
 }
 
